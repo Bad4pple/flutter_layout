@@ -1,6 +1,6 @@
 import 'dart:convert';
-
 import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
 import 'package:idk/pages/detail.dart';
 
 class HomePage extends StatefulWidget {
@@ -20,14 +20,15 @@ class _HomePageState extends State<HomePage> {
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: FutureBuilder(
-          builder: (context, snapshot) {
-            var data = json.decode(snapshot.data.toString());
+          builder: (BuildContext context, AsyncSnapshot snapshot) {
+            // var data = json.decode(snapshot.data.toString());
             return ListView.builder(
               itemBuilder: (context, index) {
-                return MyBox(data[index]["title"], data[index]["subtitle"], data[index]["image_url"], data[index]["content"]);
-            }, itemCount: data.length,);
+                return MyBox(snapshot.data[index]["title"], snapshot.data[index]["subtitle"], snapshot.data[index]["image_url"], snapshot.data[index]["content"]);
+            }, itemCount: snapshot.data.length,);
           },
-          future: DefaultAssetBundle.of(context).loadString("assets/data.json"),
+          future: getData(),
+          // future: DefaultAssetBundle.of(context).loadString("assets/data.json"),
 
         )
       ),
@@ -64,4 +65,12 @@ Widget MyBox(String title, String subtitle, String image_url, String content) {
     ),
   );
 }
+
+Future getData() async {
+  var url = Uri.https("raw.githubusercontent.com","/Bad4pple/flutter_layout/main/assets/data.json");
+  var response = await http.get(url);
+  var result = json.decode(response.body);
+  return result; 
+}
+
 }
