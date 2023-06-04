@@ -1,0 +1,28 @@
+[
+    {
+        "title": "Standardize Group",
+        "subtitle": "Standardize Group is a holding company whose main subsidiaries are such as Standardize Economic, Standardize Aero-space",
+        "image_url" :"https://scontent.fbkk17-1.fna.fbcdn.net/v/t39.30808-6/337028372_770195154314887_4267876048272285511_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=y_R9ODBHavUAX9G8X4U&_nc_ht=scontent.fbkk17-1.fna&oh=00_AfB51Vpvq-h6Bp74vQUXbPxrku6rQ9dg9WEzQx_3H299xg&oe=64821FCC",
+        "content": ""
+    },
+
+    {
+        "title": "Standardize Space",
+        "subtitle": "Standardize Space is a company for build Space-carft and logistic on space between planet and make a personal space-carft",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE5Sr91Xp5vWa_WhDe-aWbCXc-Lklkv9bw0g&usqp=CAU",
+        "content": ""
+    },
+
+    {
+        "title": "Standardize Empire",
+        "subtitle": "Standardize Empire is a company for build smart-city at Chiang Mai",
+        "image_url" :"https://scontent.fbkk17-1.fna.fbcdn.net/v/t39.30808-6/337028372_770195154314887_4267876048272285511_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=y_R9ODBHavUAX9G8X4U&_nc_ht=scontent.fbkk17-1.fna&oh=00_AfB51Vpvq-h6Bp74vQUXbPxrku6rQ9dg9WEzQx_3H299xg&oe=64821FCC",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+    },
+    {
+        "title": "Standardize Aero",
+        "subtitle": "Standardize Aero is a company for provide transportation on air",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE5Sr91Xp5vWa_WhDe-aWbCXc-Lklkv9bw0g&usqp=CAU",
+        "content": ""
+    }
+]
